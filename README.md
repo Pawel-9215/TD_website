@@ -1,1 +1,1 @@
-# TD_website
+# Website for TerminalDungeon project
