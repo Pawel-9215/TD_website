@@ -1,0 +1,60 @@
+#overridder{
+    background-color: rgb(31, 32, 36);
+    font-family: 'Share Tech Mono', monospace;
+    color: rgb(203, 206, 224);
+}
+
+#form_1{
+    font-family: 'Share Tech Mono', monospace;
+    color: rgb(203, 206, 224);
+    background-color: rgb(47, 49, 53);
+}
+#logo{
+    color:white;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+#header{
+    text-align: center;
+}
+
+#toright{
+    text-align: right;
+}
+
+.my_links:link{
+    color: rgb(149, 184, 190);
+}
+.my_links:visited{
+    color: rgb(168, 186, 189);
+}
+.my_links:hover{
+    color: rgb(185, 231, 223);
+}
+.my_links:active{
+    color: rgb(111, 123, 136);
+}
+#subtitle{
+    padding: 0px;
+}
+
+#only_form input:not([type=submit]){
+    background-color: rgb(47, 49, 53);
+    color: rgb(198, 208, 228);
+    border: none;
+    border-bottom: 1px solid rgb(236, 244, 255);
+}
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: rgb(79, 89, 121);
+    border: none;
+    color: white;
+    padding: 3px 10px;
+    text-decoration: none;
+    margin: 4px 12px;
+    cursor: pointer;
+  }
+#formdiv{
+    text-align: center;
+    margin: auto;
+    align-items: center;
+}
