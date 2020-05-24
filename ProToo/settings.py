@@ -16,6 +16,7 @@ import os
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TEMPLATES_DIR = os.path.join(BASE_DIR, "templates")
 STATIC_DIR = os.path.join(BASE_DIR, "static/")
+STATIC_DIR_ROOT = os.path.join(BASE_DIR, "static_root")
 
 
 # Quick-start development settings - unsuitable for production
@@ -27,7 +28,7 @@ SECRET_KEY = 'v_@s-ky-!3n2m+ylkqz9*i1hu6x!5anm7s!gd$(n0ur99xs^xw'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['87.206.179.46']
 
 
 # Application definition
@@ -120,6 +121,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
+STATIC_ROOT = STATIC_DIR_ROOT
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     STATIC_DIR,
