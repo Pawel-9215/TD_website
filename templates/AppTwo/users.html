@@ -12,31 +12,7 @@
     <title>help page</title>
 </head>
 <body>
-    <h3>This is users page</h3>
-
-        {% if users %}
-            <table>
-                <th>Last Name</th>
-                <th>First Name</th>
-                <th>Email</th>
-
-            {% for usr in users %}
-                <tr>
-                    <td>
-                        {{ usr.last_name }} 
-                    </td>
-                    <td>
-                        {{ usr.first_name }}
-                    </td>
-                    <td>
-                        {{ usr.email }}
-                    </td>
-                </tr>
-            {% endfor %}
-            </table>
-        {% else %}
-            <h3>smth wrong</h3>
-        {% endif %}
+   
     
     
 </body>
